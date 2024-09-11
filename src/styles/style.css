@@ -1,0 +1,353 @@
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.content {
+  max-width: 550px;
+  width: 100%; /* Full width up to max-width */
+}
+
+.navbar{
+  margin-bottom: 0px;
+  border: none;
+  }
+  .navbar-inverse
+  {
+      background-color: transparent;
+      color: white;
+  }
+  .navbar-inverse .navbar-toggle {
+    border: none;
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: transparent; /* Use 'transparent' to remove background color */
+}
+  .navbar-inverse .navbar-nav>li>a
+  {
+      font-size: 16px;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    
+      background-color: grey;
+  }
+  .navbar-brand {
+    float: left;
+    height: 50px; /* Default height */
+    padding: 8px;
+    
+    color: #ffffff; /* White text color by default, can be overridden */
+  }
+  .navbar-brand img {
+    max-height: 30px; /* Adjust to fit your design */
+  height: auto;     /* Maintain aspect ratio */
+  width: 124px;
+}
+.container-fluid
+{
+  background-color: #00040F;
+  padding-right: 0px;  /* Default horizontal padding on the right */
+  padding-left: 0px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: none;
+}
+.content
+{
+max-width: 100%;
+background-color: #00040F;
+height:550px ;
+}
+.elements
+{
+  margin-left: 50px;
+
+}
+.flex
+{
+  
+  display: inline-flex;
+  background: linear-gradient(to right, #272727 0%, #11101D 100%);
+  border-radius: 15px;
+  align-items: center;
+  padding: 12px;
+}
+.flex div
+{
+  padding: 5px;
+}
+.info
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: gray;
+  font-size: 18px;
+}
+.paragraph 
+{
+  color: #FFFFFFB2;
+  font-weight: 400;
+  font-size: 20px;
+}
+.title h1
+{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+}
+.title2 h1 {
+  font-weight: 600;
+  font-size: 45px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.generation {
+  /* Fallback solid color */
+  color: transparent; /* Ensure text color is transparent so that gradient shows through */
+
+  /* Set gradient background */
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+
+  /* Ensure background gradient is clipped to text */
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text; /* Standard property */
+}
+
+
+@media only screen and (max-width: 768px) {
+  .title h1 {
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .elements
+  {
+    margin-left: 20px;
+  }
+  .info
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: gray;
+  font-size: 12px;
+}
+.main
+{
+  margin-bottom: 25px;
+}
+.status{
+  font-size: 45px;
+}
+.cont{
+  font-size: 50px;
+}
+}
+
+.pink__gradient {
+  position: absolute; /* equivalent to Tailwind's `absolute` */
+  z-index: 0;         /* equivalent to Tailwind's `z-[0]` */
+  width: 40%;         /* equivalent to Tailwind's `w-[40%]` */
+  height: 35%;        /* equivalent to Tailwind's `h-[35%]` */
+  top: 0;   
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+.blue__gradient {
+  position: absolute;  /* equivalent to Tailwind's `absolute` */
+  z-index: 0;          /* equivalent to Tailwind's `z-[0]` */
+  width: 50%;          /* equivalent to Tailwind's `w-[50%]` */
+  height: 50%;         /* equivalent to Tailwind's `h-[50%]` */
+  right: 20px;         /* equivalent to Tailwind's `right-20` */
+  bottom: 20px;  
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+.white__gradient {
+  position: absolute;  /* equivalent to Tailwind's `absolute` */
+  z-index: 1;          /* equivalent to Tailwind's `z-[1]` */
+  width: 80%;          /* equivalent to Tailwind's `w-[80%]` */
+  height: 80%;         /* equivalent to Tailwind's `h-[80%]` */
+  border-radius: 50%; /* equivalent to Tailwind's `rounded-full` */
+  bottom: 40px;     
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+.status
+{
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: transparent; /* Ensure text color is transparent so that gradient shows through */
+
+  /* Set gradient background */
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+
+  /* Ensure background gradient is clipped to text */
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text;
+}
+.cont
+{
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+.main
+{
+  margin-bottom: 25px;
+}
+.status{
+  font-size: 30px;
+}
+.cont{
+  font-size: 35px;
+}
+}
+
+.btn-primary
+{
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  color: black;
+  padding-left:32px ;
+  padding-right:32px ;
+  padding-bottom: 20px;
+  padding-top:20px ;
+  border-radius: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.btn-primary:hover
+{
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  color: black;
+}
+.thing
+{
+  background: #09977C1A;
+ /* Example color, replace with the actual dimBlue color */
+  border-radius: 9999px;
+}
+
+.flex2
+{
+  
+  display: inline-flex;
+  background: transparent;
+  border-radius: 15px;
+  align-items: center;
+  padding: 10px;
+}
+.flex2 div
+{
+  padding: 12px;
+}
+
+.info2 h4
+{
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.info2 p{
+  color: white;
+  font-size: 16px;
+  color: gray;
+  font-weight: bold;
+}
+.flex2:hover{
+  background: linear-gradient(to right, #272727 0%, #11101D 100%);
+}
+
+.flexbox
+{
+  
+  display: flex;
+  background: transparent;
+  border-radius: 15px;
+  align-items: center;
+  padding: 10px;
+}
+
+.flexbox div
+{
+  
+ cursor: pointer;
+}
+
+.titre
+{
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+}
+.card
+{
+  background: transparent;
+  border-radius: 16px;
+}
+.flexe
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    background: transparent;
+  }
+  .flexe div
+  {
+    margin-left: 12px;
+  }
+
+  .card:hover
+  {
+    background: linear-gradient(to right, #272727 0%, #11101D 100%);
+  }
+  .flexy2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .flexy2 div{
+    padding: 20px;
+  }
+
+  .flexy3
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    padding: 25px;
+    border-radius: 18px;
+    
+  }
