@@ -28,7 +28,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-xs-12 col-sm-12">
-            <div>
+            <div style={{position : 'relative'}}>
                 <img src="/assets/robot.png" alt="" className="img-responsive" />
                 <div className="pink__gradient"></div>
                 <div className="white__gradient"></div>

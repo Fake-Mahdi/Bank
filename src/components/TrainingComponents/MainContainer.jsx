@@ -20,12 +20,12 @@ const MainContainer = () => {
         </div>
       </div>
 
-      <div className="container" style={{ marginTop: '70px', marginBottom:'70px' }}>
+      <div className="container" >
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+          <div className=" col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <FirstSection />
           </div>
-          <div className="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+          <div className="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <SecSection />
           </div>
         </div>
